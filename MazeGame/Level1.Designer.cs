@@ -77,7 +77,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Start";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+          
             // 
             // pictureBox1
             // 
@@ -108,7 +108,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(20, 328);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -118,7 +117,6 @@
             this.pictureBox4.Size = new System.Drawing.Size(274, 23);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
@@ -164,7 +162,6 @@
             this.pictureBox9.Size = new System.Drawing.Size(21, 360);
             this.pictureBox9.TabIndex = 9;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // label2
             // 
@@ -175,7 +172,6 @@
             this.label2.Size = new System.Drawing.Size(70, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "Finish";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox10
             // 
