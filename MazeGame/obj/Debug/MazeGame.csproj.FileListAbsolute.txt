@@ -22,3 +22,5 @@ D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.pdb
 D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.Form2.resources
 >>>>>>> origin/master
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.Form2.resources
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.Level1.resources
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.GameOver.resources
