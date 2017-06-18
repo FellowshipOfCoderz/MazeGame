@@ -10,15 +10,15 @@ using System.Windows.Forms;
 
 namespace MazeGame
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-            KeyDown += new KeyEventHandler(Form1_KeyDown);
-        }
+            KeyDown += new KeyEventHandler(Form2_KeyDown);
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        }
+        private void Form2_KeyDown(object sender, KeyEventArgs e)
         {
             int x = pictureBox1.Location.X;
             int y = pictureBox1.Location.Y;
@@ -31,37 +31,17 @@ namespace MazeGame
             pictureBox1.Location = new Point(x, y);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
+        private void pictureBox21_Click(object sender, EventArgs e)
         {
 
         }

@@ -7,3 +7,13 @@ F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.Properties.Res
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.csproj.GenerateResource.Cache
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.exe
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.pdb
+D:\MazeGame\MazeGame\MazeGame\bin\Debug\MazeGame.exe.config
+D:\MazeGame\MazeGame\MazeGame\bin\Debug\MazeGame.exe
+D:\MazeGame\MazeGame\MazeGame\bin\Debug\MazeGame.pdb
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.csprojResolveAssemblyReference.cache
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.Form1.resources
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.Properties.Resources.resources
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.csproj.GenerateResource.Cache
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.exe
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.pdb
+D:\MazeGame\MazeGame\MazeGame\obj\Debug\MazeGame.Form2.resources
