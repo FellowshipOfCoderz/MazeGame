@@ -33,7 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.StartLabel = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -51,11 +51,11 @@
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.FinishLabel = new System.Windows.Forms.Label();
+            this.StudentHero = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LifesLabel = new System.Windows.Forms.Label();
+            this.SecLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -76,7 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StudentHero)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -103,23 +103,21 @@
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(756, 31);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(31, 390);
+            this.pictureBox3.Size = new System.Drawing.Size(31, 345);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
-            // label1
+            // StartLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label1.Location = new System.Drawing.Point(39, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 27);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Start";
-            this.label1.UseCompatibleTextRendering = true;
-            this.label1.UseMnemonic = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.StartLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.StartLabel.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.StartLabel.Location = new System.Drawing.Point(40, 47);
+            this.StartLabel.Name = "StartLabel";
+            this.StartLabel.Size = new System.Drawing.Size(50, 27);
+            this.StartLabel.TabIndex = 3;
+            this.StartLabel.Text = "Start";
+            this.StartLabel.UseCompatibleTextRendering = true;
+            this.StartLabel.UseMnemonic = false;
             // 
             // pictureBox4
             // 
@@ -133,9 +131,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(-1, 31);
+            this.pictureBox5.Location = new System.Drawing.Point(-1, 88);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(34, 416);
+            this.pictureBox5.Size = new System.Drawing.Size(34, 359);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
             // 
@@ -165,7 +163,6 @@
             this.pictureBox8.Size = new System.Drawing.Size(100, 28);
             this.pictureBox8.TabIndex = 8;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -275,26 +272,24 @@
             this.pictureBox20.TabIndex = 20;
             this.pictureBox20.TabStop = false;
             // 
-            // label2
+            // FinishLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(683, 379);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 24);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Finish";
+            this.FinishLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FinishLabel.Location = new System.Drawing.Point(720, 383);
+            this.FinishLabel.Name = "FinishLabel";
+            this.FinishLabel.Size = new System.Drawing.Size(67, 24);
+            this.FinishLabel.TabIndex = 21;
+            this.FinishLabel.Text = "Finish";
             // 
-            // pictureBox21
+            // StudentHero
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(105, 38);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(42, 36);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 22;
-            this.pictureBox21.TabStop = false;
-            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
+            this.StudentHero.Image = ((System.Drawing.Image)(resources.GetObject("StudentHero.Image")));
+            this.StudentHero.Location = new System.Drawing.Point(-1, 42);
+            this.StudentHero.Name = "StudentHero";
+            this.StudentHero.Size = new System.Drawing.Size(42, 36);
+            this.StudentHero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StudentHero.TabIndex = 22;
+            this.StudentHero.TabStop = false;
             // 
             // imageList1
             // 
@@ -302,33 +297,33 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // label3
+            // LifesLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(282, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "label3";
+            this.LifesLabel.AutoSize = true;
+            this.LifesLabel.Location = new System.Drawing.Point(282, 9);
+            this.LifesLabel.Name = "LifesLabel";
+            this.LifesLabel.Size = new System.Drawing.Size(29, 13);
+            this.LifesLabel.TabIndex = 23;
+            this.LifesLabel.Text = "Lifes";
             // 
-            // label4
+            // SecLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(387, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "label4";
+            this.SecLabel.AutoSize = true;
+            this.SecLabel.Location = new System.Drawing.Point(387, 9);
+            this.SecLabel.Name = "SecLabel";
+            this.SecLabel.Size = new System.Drawing.Size(26, 13);
+            this.SecLabel.TabIndex = 24;
+            this.SecLabel.Text = "Sec";
             // 
-            // Form2
+            // Level2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 449);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.SecLabel);
+            this.Controls.Add(this.LifesLabel);
+            this.Controls.Add(this.StudentHero);
+            this.Controls.Add(this.FinishLabel);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox18);
@@ -346,12 +341,12 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.StartLabel);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Level2";
+            this.Text = "Level2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -373,7 +368,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StudentHero)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -384,7 +379,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label StartLabel;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -402,10 +397,10 @@
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Label FinishLabel;
+        private System.Windows.Forms.PictureBox StudentHero;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LifesLabel;
+        private System.Windows.Forms.Label SecLabel;
     }
 }

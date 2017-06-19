@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace MazeGame
+﻿namespace MazeGame
 {
+    using System;
+    using System.Drawing;
+    using System.Windows.Forms;
+
     public partial class Level2 : Form
     {
         int sec;
@@ -17,47 +11,55 @@ namespace MazeGame
         public Level2()
         {
             InitializeComponent();
-            KeyDown += new KeyEventHandler(Form2_KeyDown);
+            KeyDown += new KeyEventHandler(Level2_KeyDown);
 
         }
-        private void Form2_KeyDown(object sender, KeyEventArgs e)
+        private void Level2_KeyDown(object sender, KeyEventArgs e)
         {
-            int x = pictureBox21.Location.X;
-            int y = pictureBox21.Location.Y;
+            int x = StudentHero.Location.X;
+            int y = StudentHero.Location.Y;
 
-            if (e.KeyCode == Keys.Right) x += 1;
-            else if (e.KeyCode == Keys.Left) x -= 1;
-            else if (e.KeyCode == Keys.Up) y -= 1;
-            else if (e.KeyCode == Keys.Down) y += 1;
+            if (e.KeyCode == Keys.Right) x += 15;
+            else if (e.KeyCode == Keys.Left) x -= 15;
+            else if (e.KeyCode == Keys.Up) y -= 15;
+            else if (e.KeyCode == Keys.Down) y += 15;
 
-            pictureBox21.Location = new Point(x, y);
+            StudentHero.Location = new Point(x, y);
 
-            if (pictureBox21.Bounds.IntersectsWith(pictureBox1.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox2.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox3.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox4.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox5.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox6.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox7.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox8.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox9.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox10.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox11.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox12.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox13.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox14.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox15.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox16.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox17.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox18.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox19.Bounds) ||
-                pictureBox21.Bounds.IntersectsWith(pictureBox20.Bounds))
+            if (StudentHero.Bounds.IntersectsWith(pictureBox1.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox2.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox3.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox4.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox5.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox6.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox7.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox8.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox9.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox10.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox11.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox12.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox13.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox14.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox15.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox16.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox17.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox18.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox19.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(pictureBox20.Bounds))
             {
-                pictureBox21.Left = 95;
-                pictureBox21.Top = 50;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
                 lifes -= 1;
-                label3.Text = lifes.ToString();
+                LifesLabel.Text = lifes.ToString();
             }
+            if (StudentHero.Bounds.IntersectsWith(FinishLabel.Bounds))
+            {
+                this.Hide();
+                var Level2 = new Level2();
+                Level2.Closed += (s, args) => this.Close();
+                Level2.Show();
+            }
+
             if (lifes == 0)
             {
                 this.Hide();
@@ -68,27 +70,12 @@ namespace MazeGame
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox21_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form2_Load(object sender, EventArgs e)
         {
             sec = 15;
             lifes = 3;
-            label3.Text = lifes.ToString();
-            label4.Text = sec.ToString();
+            LifesLabel.Text = lifes.ToString();
+            SecLabel.Text = sec.ToString();
         }
     }
 }

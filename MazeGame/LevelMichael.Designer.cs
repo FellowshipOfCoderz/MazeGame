@@ -61,6 +61,8 @@
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.LifesLabel = new System.Windows.Forms.Label();
+            this.SecLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -110,7 +112,7 @@
             this.StartLabel.TabIndex = 1;
             this.StartLabel.Text = "Start";
             this.StartLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.StartLabel.Click += new System.EventHandler(this.label1_Click);
+            //this.StartLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 
@@ -169,7 +171,7 @@
             this.FinishLabel.Size = new System.Drawing.Size(70, 25);
             this.FinishLabel.TabIndex = 11;
             this.FinishLabel.Text = "Finish";
-            this.FinishLabel.Click += new System.EventHandler(this.label2_Click);
+            //this.FinishLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // StudentHero
             // 
@@ -198,7 +200,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(17, 133);
             this.pictureBox8.TabIndex = 25;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            //this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -226,7 +228,7 @@
             this.pictureBox11.Size = new System.Drawing.Size(17, 108);
             this.pictureBox11.TabIndex = 28;
             this.pictureBox11.TabStop = false;
-            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
+            //this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // TrapLabel
             // 
@@ -396,11 +398,32 @@
             this.pictureBox28.TabIndex = 46;
             this.pictureBox28.TabStop = false;
             // 
+            // LifesLabel
+            // 
+            this.LifesLabel.AutoSize = true;
+            this.LifesLabel.Location = new System.Drawing.Point(283, 7);
+            this.LifesLabel.Name = "LifesLabel";
+            this.LifesLabel.Size = new System.Drawing.Size(29, 13);
+            this.LifesLabel.TabIndex = 47;
+            this.LifesLabel.Text = "Lifes";
+            //this.LifesLabel.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // SecLabel
+            // 
+            this.SecLabel.AutoSize = true;
+            this.SecLabel.Location = new System.Drawing.Point(375, 7);
+            this.SecLabel.Name = "SecLabel";
+            this.SecLabel.Size = new System.Drawing.Size(26, 13);
+            this.SecLabel.TabIndex = 48;
+            this.SecLabel.Text = "Sec";
+            // 
             // LevelMichael
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 449);
+            this.Controls.Add(this.SecLabel);
+            this.Controls.Add(this.LifesLabel);
             this.Controls.Add(this.pictureBox28);
             this.Controls.Add(this.pictureBox27);
             this.Controls.Add(this.pictureBox26);
@@ -504,5 +527,7 @@
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Label LifesLabel;
+        private System.Windows.Forms.Label SecLabel;
     }
 }
