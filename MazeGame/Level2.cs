@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace MazeGame
 {
-    public partial class Form2 : Form
+    public partial class Level2 : Form
     {
         int sec;
         int lifes;
-        public Form2()
+        public Level2()
         {
             InitializeComponent();
             KeyDown += new KeyEventHandler(Form2_KeyDown);

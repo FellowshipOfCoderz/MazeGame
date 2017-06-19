@@ -53,6 +53,13 @@ namespace MazeGame
                 lifes -= 1;
                 label3.Text = lifes.ToString();
             }
+            if (pictureBox1.Bounds.IntersectsWith(label2.Bounds))
+            {
+                this.Hide();
+                var Level2 = new Level2();
+                Level2.Closed += (s, args) => this.Close();
+                Level2.Show();
+            }
             if (lifes == 0)
             {
                 this.Hide();
