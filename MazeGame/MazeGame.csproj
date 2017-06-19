@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LevelMichael.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelMichael.Designer.cs">
+      <DependentUpon>LevelMichael.cs</DependentUpon>
+    </Compile>
     <Compile Include="Level1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,7 +70,7 @@
     <Compile Include="Level2.Designer.cs">
       <DependentUpon>Level2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="MazeLauncher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Level1.resx">
       <DependentUpon>Level1.cs</DependentUpon>
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Level2.resx">
       <DependentUpon>Level2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelMichael.resx">
+      <DependentUpon>LevelMichael.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

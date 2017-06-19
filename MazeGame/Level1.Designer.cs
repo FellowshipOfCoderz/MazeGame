@@ -71,19 +71,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(31, 33);
+            this.label1.Location = new System.Drawing.Point(42, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Start";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-          
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(95, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -165,9 +164,8 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(721, 371);
+            this.label2.Location = new System.Drawing.Point(713, 409);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 25);
             this.label2.TabIndex = 10;
@@ -176,9 +174,9 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox10.Location = new System.Drawing.Point(-1, 1);
+            this.pictureBox10.Location = new System.Drawing.Point(-1, 94);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(26, 444);
+            this.pictureBox10.Size = new System.Drawing.Size(26, 351);
             this.pictureBox10.TabIndex = 11;
             this.pictureBox10.TabStop = false;
             // 
@@ -187,16 +185,16 @@
             this.pictureBox11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox11.Location = new System.Drawing.Point(22, 416);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(788, 29);
+            this.pictureBox11.Size = new System.Drawing.Size(693, 29);
             this.pictureBox11.TabIndex = 12;
             this.pictureBox11.TabStop = false;
             // 
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox12.Location = new System.Drawing.Point(12, 1);
+            this.pictureBox12.Location = new System.Drawing.Point(-1, 1);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(788, 29);
+            this.pictureBox12.Size = new System.Drawing.Size(801, 29);
             this.pictureBox12.TabIndex = 13;
             this.pictureBox12.TabStop = false;
             // 
@@ -258,7 +256,7 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "label4";
             // 
-            // Form1
+            // Level1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -283,7 +281,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Level1";
             this.Text = "Level1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
