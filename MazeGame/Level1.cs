@@ -20,7 +20,11 @@
             int x = StudentHero.Location.X;
             int y = StudentHero.Location.Y;
 
-            if (e.KeyCode == Keys.Right) x += 10;
+            if (e.KeyCode == Keys.Right)
+            {
+                StudentHero.LoadAsync("CodeWizzard.gif");
+                x += 10;
+            }
             else if (e.KeyCode == Keys.Left) x -= 10;
             else if (e.KeyCode == Keys.Up) y -= 10;
             else if (e.KeyCode == Keys.Down) y += 10;

@@ -52,11 +52,11 @@
     <Compile Include="Level4.Designer.cs">
       <DependentUpon>Level4.cs</DependentUpon>
     </Compile>
-    <Compile Include="LevelMichael.cs">
+    <Compile Include="Level3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LevelMichael.Designer.cs">
-      <DependentUpon>LevelMichael.cs</DependentUpon>
+    <Compile Include="Level3.Designer.cs">
+      <DependentUpon>Level3.cs</DependentUpon>
     </Compile>
     <Compile Include="Level1.cs">
       <SubType>Form</SubType>
@@ -96,8 +96,8 @@
     <EmbeddedResource Include="Level4.resx">
       <DependentUpon>Level4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LevelMichael.resx">
-      <DependentUpon>LevelMichael.cs</DependentUpon>
+    <EmbeddedResource Include="Level3.resx">
+      <DependentUpon>Level3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -125,6 +125,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CodeWizzard.gif" />
     <Content Include="theDude.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

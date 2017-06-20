@@ -12,7 +12,10 @@
 
         private void playAgainButton_Click(object sender, EventArgs e)
         {
-            //TODO restart the game
+            this.Hide();
+            var Level1 = new Level1();
+            Level1.Closed += (s, args) => this.Close();
+            Level1.Show();
         }
 
         private void GameOver_Load(object sender, EventArgs e)
