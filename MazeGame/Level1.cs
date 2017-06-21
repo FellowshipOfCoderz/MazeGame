@@ -53,6 +53,13 @@
             }
             if (StudentHero.Bounds.IntersectsWith(FinishLabel.Bounds))
             {
+                sec = 60;
+                lifes = 3;
+                LifesLabel.Text = lifes.ToString();
+                SecLabel.Text = sec.ToString();
+                Timer1.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
                 this.Hide();
                 var Level2 = new Level2();
                 Level2.Closed += (s, args) => this.Close();
@@ -60,6 +67,13 @@
             }
             if (lifes == 0)
             {
+                sec = 60;
+                lifes = 3;
+                LifesLabel.Text = lifes.ToString();
+                SecLabel.Text = sec.ToString();
+                Timer1.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
                 this.Hide();
                 var GameOver = new GameOver();
                 GameOver.Closed += (s, args) => this.Close();
@@ -69,17 +83,33 @@
 
         public void Form1_Load(object sender, EventArgs e)
         {
-            sec = 15;
+            sec = 60;
             lifes = 3;
             LifesLabel.Text = lifes.ToString();
             SecLabel.Text = sec.ToString();
-
+            Timer1.Enabled = true;
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
-        
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            sec = sec - 1;
+            SecLabel.Text = sec.ToString();
+            if (sec == 0)
+            {
+                Timer1.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
+                this.Hide();
+                var GameOver = new GameOver();
+                GameOver.Closed += (s, args) => this.Close();
+                GameOver.Show();
+                sec = 60;
+                lifes = 3;
+            }
+        }
     }
 }
