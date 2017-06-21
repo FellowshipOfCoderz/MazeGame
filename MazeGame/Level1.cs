@@ -85,10 +85,6 @@
             SecLabel.Text = sec.ToString();
             Timer1.Enabled = true;
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Timer1_Tick(object sender, EventArgs e)
         {

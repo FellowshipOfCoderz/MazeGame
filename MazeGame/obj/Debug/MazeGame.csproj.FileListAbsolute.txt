@@ -69,3 +69,6 @@ C:\Users\asd\Desktop\ss\MazeGame-master\MazeGame\obj\Debug\MazeGame.Level3.resou
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.Level4.resources
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.Level3.resources
 F:\Softuni\C#AdvancedProject\MazeGame\MazeGame\obj\Debug\MazeGame.YouWon.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level4.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level3.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.YouWon.resources

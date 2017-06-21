@@ -316,6 +316,7 @@
             this.SecLabel.Size = new System.Drawing.Size(26, 13);
             this.SecLabel.TabIndex = 24;
             this.SecLabel.Text = "Sec";
+            this.SecLabel.Click += new System.EventHandler(this.SecLabel_Click);
             // 
             // Timer1
             // 
