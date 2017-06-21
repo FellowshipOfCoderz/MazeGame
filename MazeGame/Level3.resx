@@ -180,6 +180,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
+<<<<<<< HEAD
   <data name="pictureBox11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
@@ -228,4 +229,9 @@
         Wrf+Bkn+NAH/2Q==
 </value>
   </data>
+=======
+  <metadata name="Timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>31, 28</value>
+  </metadata>
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
 </root>

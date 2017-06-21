@@ -86,16 +86,11 @@
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            sec = 15;
+            sec = 60;
             lifes = 3;
             LifesLabel.Text = lifes.ToString();
             SecLabel.Text = sec.ToString();
             Timer1.Enabled = true;
-        }
-
-        private void StudentHero_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -114,6 +109,11 @@
                 sec = 60;
                 lifes = 3;
             }
+        }
+
+        private void SecLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

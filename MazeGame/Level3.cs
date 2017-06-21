@@ -52,7 +52,8 @@
                 StudentHero.Bounds.IntersectsWith(pictureBox25.Bounds) ||
                 StudentHero.Bounds.IntersectsWith(pictureBox26.Bounds) ||
                 StudentHero.Bounds.IntersectsWith(pictureBox27.Bounds) ||
-                StudentHero.Bounds.IntersectsWith(pictureBox28.Bounds))
+                StudentHero.Bounds.IntersectsWith(pictureBox28.Bounds) ||
+                StudentHero.Bounds.IntersectsWith(TrapLabel.Bounds))
             {
                 StudentHero.Left = 3;
                 StudentHero.Top = 30;
@@ -62,6 +63,13 @@
 
             if (StudentHero.Bounds.IntersectsWith(FinishLabel.Bounds))
             {
+                sec = 60;
+                lifes = 3;
+                LifesLabel.Text = lifes.ToString();
+                SecLabel.Text = sec.ToString();
+                Timer3.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
                 this.Hide();
                 var Level4 = new Level4();
                 Level4.Closed += (s, args) => this.Close();
@@ -70,6 +78,14 @@
 
             if (lifes == 0)
             {
+                sec = 60;
+                lifes = 3;
+                LifesLabel.Text = lifes.ToString();
+                SecLabel.Text = sec.ToString();
+                Timer3.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
+
                 this.Hide();
                 var GameOver = new GameOver();
                 GameOver.Closed += (s, args) => this.Close();
@@ -79,10 +95,31 @@
 
         public void LevelMichael_Load(object sender, EventArgs key)
         {
-            sec = 15;
+            sec = 60;
             lifes = 3;
             LifesLabel.Text = lifes.ToString();
             SecLabel.Text = sec.ToString();
+            Timer3.Enabled = true;
         }
+
+        private void Timer3_Tick(object sender, EventArgs key)
+        {
+            sec = sec - 1;
+            SecLabel.Text = sec.ToString();
+            if (sec == 0)
+            {
+                Timer3.Enabled = false;
+                StudentHero.Left = 95;
+                StudentHero.Top = 50;
+                this.Hide();
+                var GameOver = new GameOver();
+                GameOver.Closed += (s, args) => this.Close();
+                GameOver.Show();
+                sec = 60;
+                lifes = 3;
+
+            }
+        }
+
     }
 }

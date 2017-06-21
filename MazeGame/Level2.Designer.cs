@@ -318,7 +318,6 @@
             this.StudentHero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StudentHero.TabIndex = 22;
             this.StudentHero.TabStop = false;
-            this.StudentHero.Click += new System.EventHandler(this.StudentHero_Click);
             // 
             // imageList1
             // 
@@ -349,6 +348,7 @@
             this.SecLabel.Size = new System.Drawing.Size(32, 17);
             this.SecLabel.TabIndex = 24;
             this.SecLabel.Text = "Sec";
+            this.SecLabel.Click += new System.EventHandler(this.SecLabel_Click);
             // 
             // Timer1
             // 
