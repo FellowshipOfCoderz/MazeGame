@@ -62,6 +62,8 @@
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -91,6 +93,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -358,7 +362,7 @@
             this.LifesLabel.AutoSize = true;
             this.LifesLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LifesLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.LifesLabel.Location = new System.Drawing.Point(401, 10);
+            this.LifesLabel.Location = new System.Drawing.Point(289, 9);
             this.LifesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LifesLabel.Name = "LifesLabel";
             this.LifesLabel.Size = new System.Drawing.Size(38, 17);
@@ -370,7 +374,7 @@
             this.SecLabel.AutoSize = true;
             this.SecLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.SecLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.SecLabel.Location = new System.Drawing.Point(562, 10);
+            this.SecLabel.Location = new System.Drawing.Point(349, 9);
             this.SecLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SecLabel.Name = "SecLabel";
             this.SecLabel.Size = new System.Drawing.Size(67, 17);
@@ -404,11 +408,31 @@
             this.pictureBox28.TabIndex = 33;
             this.pictureBox28.TabStop = false;
             // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(248, 1);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox29.TabIndex = 50;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
+            this.pictureBox30.Location = new System.Drawing.Point(315, 1);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(27, 32);
+            this.pictureBox30.TabIndex = 51;
+            this.pictureBox30.TabStop = false;
+            // 
             // Level4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1152, 584);
+            this.Controls.Add(this.pictureBox30);
+            this.Controls.Add(this.pictureBox29);
             this.Controls.Add(this.pictureBox28);
             this.Controls.Add(this.pictureBox27);
             this.Controls.Add(this.pictureBox26);
@@ -474,6 +498,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,5 +539,7 @@
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.PictureBox pictureBox30;
     }
 }

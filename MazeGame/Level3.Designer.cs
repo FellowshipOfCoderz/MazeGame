@@ -62,9 +62,14 @@
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.LifesLabel = new System.Windows.Forms.Label();
             this.SecLabel = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+=======
             this.TrapLabel = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.Timer3 = new System.Windows.Forms.Timer(this.components);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -94,14 +99,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+=======
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
+            this.pictureBox1.Location = new System.Drawing.Point(-36, -5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1045, 40);
+=======
             this.pictureBox1.Location = new System.Drawing.Point(2, -1);
             this.pictureBox1.Name = "pictureBox1";
+<<<<<<< HEAD
             this.pictureBox1.Size = new System.Drawing.Size(784, 33);
+=======
+            this.pictureBox1.Size = new System.Drawing.Size(784, 21);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
+>>>>>>> b9822b019efe83e273bd20d4fcba48ea2306ec4f
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -136,16 +156,38 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.pictureBox4.Location = new System.Drawing.Point(2, 74);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(24, 378);
+=======
+<<<<<<< HEAD
+            this.pictureBox4.Location = new System.Drawing.Point(3, 91);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 465);
+=======
+            this.pictureBox4.Location = new System.Drawing.Point(2, 71);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 381);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
+>>>>>>> b9822b019efe83e273bd20d4fcba48ea2306ec4f
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.pictureBox5.Location = new System.Drawing.Point(12, 85);
+=======
+<<<<<<< HEAD
+            this.pictureBox5.Location = new System.Drawing.Point(23, 91);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox5.Location = new System.Drawing.Point(17, 71);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
+>>>>>>> b9822b019efe83e273bd20d4fcba48ea2306ec4f
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(192, 16);
             this.pictureBox5.TabIndex = 5;
@@ -154,9 +196,16 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
+            this.pictureBox6.Location = new System.Drawing.Point(347, 33);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(23, 136);
+=======
             this.pictureBox6.Location = new System.Drawing.Point(260, 12);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(17, 125);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
             // 
@@ -176,7 +225,12 @@
             // StudentHero
             // 
             this.StudentHero.Image = ((System.Drawing.Image)(resources.GetObject("StudentHero.Image")));
+<<<<<<< HEAD
+            this.StudentHero.Location = new System.Drawing.Point(3, 43);
+            this.StudentHero.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.StudentHero.Location = new System.Drawing.Point(2, 29);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             this.StudentHero.Name = "StudentHero";
             this.StudentHero.Size = new System.Drawing.Size(42, 36);
             this.StudentHero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -375,7 +429,18 @@
             // LifesLabel
             // 
             this.LifesLabel.AutoSize = true;
+<<<<<<< HEAD
             this.LifesLabel.Location = new System.Drawing.Point(294, 9);
+=======
+<<<<<<< HEAD
+            this.LifesLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LifesLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LifesLabel.Location = new System.Drawing.Point(286, 12);
+            this.LifesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.LifesLabel.Location = new System.Drawing.Point(283, 7);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
+>>>>>>> b9822b019efe83e273bd20d4fcba48ea2306ec4f
             this.LifesLabel.Name = "LifesLabel";
             this.LifesLabel.Size = new System.Drawing.Size(29, 13);
             this.LifesLabel.TabIndex = 47;
@@ -384,7 +449,18 @@
             // SecLabel
             // 
             this.SecLabel.AutoSize = true;
+<<<<<<< HEAD
             this.SecLabel.Location = new System.Drawing.Point(376, 9);
+=======
+<<<<<<< HEAD
+            this.SecLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.SecLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.SecLabel.Location = new System.Drawing.Point(347, 12);
+            this.SecLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.SecLabel.Location = new System.Drawing.Point(375, 7);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
+>>>>>>> b9822b019efe83e273bd20d4fcba48ea2306ec4f
             this.SecLabel.Name = "SecLabel";
             this.SecLabel.Size = new System.Drawing.Size(52, 13);
             this.SecLabel.TabIndex = 48;
@@ -418,13 +494,37 @@
             this.Timer3.Interval = 1000;
             this.Timer3.Tick += new System.EventHandler(this.Timer3_Tick);
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(245, 1);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox11.TabIndex = 49;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(313, 1);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(27, 32);
+            this.pictureBox29.TabIndex = 50;
+            this.pictureBox29.TabStop = false;
+            // 
             // Level3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1049, 553);
+            this.Controls.Add(this.pictureBox29);
+            this.Controls.Add(this.pictureBox11);
+=======
             this.ClientSize = new System.Drawing.Size(787, 449);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.TrapLabel);
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             this.Controls.Add(this.SecLabel);
             this.Controls.Add(this.LifesLabel);
             this.Controls.Add(this.pictureBox28);
@@ -489,6 +589,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+=======
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -528,8 +632,13 @@
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.Label LifesLabel;
         private System.Windows.Forms.Label SecLabel;
+<<<<<<< HEAD
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox29;
+=======
         private System.Windows.Forms.Label TrapLabel;
         private System.Windows.Forms.PictureBox pictureBox11;
         internal System.Windows.Forms.Timer Timer3;
+>>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
     }
 }
