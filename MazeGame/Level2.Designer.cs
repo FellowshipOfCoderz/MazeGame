@@ -291,7 +291,6 @@
             this.StudentHero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StudentHero.TabIndex = 22;
             this.StudentHero.TabStop = false;
-            this.StudentHero.Click += new System.EventHandler(this.StudentHero_Click);
             // 
             // imageList1
             // 

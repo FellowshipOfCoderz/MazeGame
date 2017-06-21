@@ -93,11 +93,6 @@
             Timer1.Enabled = true;
         }
 
-        private void StudentHero_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Timer1_Tick(object sender, EventArgs e)
         {
             sec = sec - 1;
