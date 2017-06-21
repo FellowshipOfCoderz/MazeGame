@@ -62,14 +62,10 @@
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.LifesLabel = new System.Windows.Forms.Label();
             this.SecLabel = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-=======
             this.TrapLabel = new System.Windows.Forms.Label();
+			
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.Timer3 = new System.Windows.Forms.Timer(this.components);
->>>>>>> c72a5c9217694ba6a17ce112d1f7cc0ad1fb9b4d
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
