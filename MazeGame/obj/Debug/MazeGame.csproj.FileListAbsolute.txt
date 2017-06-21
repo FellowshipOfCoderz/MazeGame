@@ -1,0 +1,14 @@
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.exe.config
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.exe
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.pdb
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.csprojResolveAssemblyReference.cache
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level1.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.GameOver.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level2.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level4.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Level3.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.Properties.Resources.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.YouWon.resources
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.csproj.GenerateResource.Cache
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.exe
+C:\Users\kar70\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.pdb

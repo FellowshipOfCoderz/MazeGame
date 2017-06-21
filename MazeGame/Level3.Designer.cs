@@ -101,7 +101,7 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox1.Location = new System.Drawing.Point(2, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(784, 21);
+            this.pictureBox1.Size = new System.Drawing.Size(784, 33);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -136,16 +136,16 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox4.Location = new System.Drawing.Point(2, 71);
+            this.pictureBox4.Location = new System.Drawing.Point(2, 74);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 381);
+            this.pictureBox4.Size = new System.Drawing.Size(24, 378);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox5.Location = new System.Drawing.Point(17, 71);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 85);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(192, 16);
             this.pictureBox5.TabIndex = 5;
@@ -375,7 +375,7 @@
             // LifesLabel
             // 
             this.LifesLabel.AutoSize = true;
-            this.LifesLabel.Location = new System.Drawing.Point(283, 7);
+            this.LifesLabel.Location = new System.Drawing.Point(294, 9);
             this.LifesLabel.Name = "LifesLabel";
             this.LifesLabel.Size = new System.Drawing.Size(29, 13);
             this.LifesLabel.TabIndex = 47;
@@ -384,7 +384,7 @@
             // SecLabel
             // 
             this.SecLabel.AutoSize = true;
-            this.SecLabel.Location = new System.Drawing.Point(375, 7);
+            this.SecLabel.Location = new System.Drawing.Point(376, 9);
             this.SecLabel.Name = "SecLabel";
             this.SecLabel.Size = new System.Drawing.Size(52, 13);
             this.SecLabel.TabIndex = 48;
